@@ -1,0 +1,42 @@
+### Training models for the single goal generation experiments
+
+# all are N=5 gridland
+
+### below - predicting clean
+# shift equivariant training test
+
+python diffusion_planner.py \
+--use_wandb False \
+--project 'composition' \
+--group 'GridLand' \
+--name 'DP-EqNet' \
+--env 'gridland-n5-gc' \
+--checkpoints_path 'trained_models' \
+--eval_interval 100000000 \
+--invdyn_dir 'common_models' \
+--horizon 500 \
+--batch_size 128 \
+--gradient_steps 250000 \
+--log_interval 100 \
+--save_interval 250000 \
+--num_episodes 1 \
+--n_exec_steps 1 \
+--goal_padding False \
+--predict_noise False \
+--pad True \
+--self_attention False \
+--allow_partial_subsamples True \
+--use_timestep_embeddings True \
+--use_shift_equivariant_arch False \
+--guidance 'none' \
+--goal_sample_dist 'end' 
+
+
+
+
+
+
+
+
+
+

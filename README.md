@@ -9,8 +9,6 @@ Paper link: https://arxiv.org/abs/2505.18083
 <ul>
   <li>goal_stitching: Contains most of the experiments in the paper, including the main results in the unconditional and goal-conditioned environments. </li>
   <li>data_scaling: Contains the data scaling experiments in the hexagon environment. </li>
-  <li>language_cond: Contains incomplete, early experiments in a language-conditioned navigation task.</li>
-  <li>optimality_stitching: Contains incomplete, early experiments with stitching from RvS-based algorithms like Decision Transformer in a different MuJoCo-based navigation environment. </li>
 </ul> 
 
 ### Installation
