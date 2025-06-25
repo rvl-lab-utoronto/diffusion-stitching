@@ -1,0 +1,21 @@
+# because the data takes up a lot of room :(
+optimality_stitching/wandb/*
+optimality_stitching/data/*
+optimality_stitching/runs/*
+optimality_stitching/old/wandb/*
+
+goal_stitching/wandb/*
+goal_stitching/trained_models/*
+goal_stitching/renders/*
+goal_stitching/utilities/gridland_data_new/*
+goal_stitching/paper_models/*
+goal_stitching/appendix_models/*
+
+language_cond/wandb/*
+language_cond/trained_models/*
+language_cond/renders/*
+language_cond/island_data/*
+
+data_scaling/wandb/*
+data_scaling/decagon_data/*
+data_scaling/trained_models/*
