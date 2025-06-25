@@ -1,6 +1,8 @@
 ## What Do You Need for Diverse Trajectory Stitching in Diffusion Planning?
 
-By Anonymous et al. 25
+By Quentin Clark (contact: qtcc@cs.toronto.edu) and Florian Shkurti
+
+Paper link: https://arxiv.org/abs/2505.18083
 
 ### Repository Layout
 
